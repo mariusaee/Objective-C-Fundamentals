@@ -12,6 +12,7 @@
 		29E1407928193B540000F388 /* RSVehicle.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E1407828193B540000F388 /* RSVehicle.m */; };
 		29E1408028193E590000F388 /* RSCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E1407F28193E590000F388 /* RSCar.m */; };
 		29E1408528193EEA0000F388 /* RSCarPort.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E1408428193EEA0000F388 /* RSCarPort.m */; };
+		29E14087281941730000F388 /* RSEnterable.h in Sources */ = {isa = PBXBuildFile; fileRef = 29E14086281941730000F388 /* RSEnterable.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,7 @@
 		29E1407F28193E590000F388 /* RSCar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSCar.m; sourceTree = "<group>"; };
 		29E1408328193EEA0000F388 /* RSCarPort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSCarPort.h; sourceTree = "<group>"; };
 		29E1408428193EEA0000F388 /* RSCarPort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSCarPort.m; sourceTree = "<group>"; };
+		29E14086281941730000F388 /* RSEnterable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSEnterable.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 			children = (
 				29E1408328193EEA0000F388 /* RSCarPort.h */,
 				29E1408428193EEA0000F388 /* RSCarPort.m */,
+				29E14086281941730000F388 /* RSEnterable.h */,
 			);
 			path = CarPort;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 				29E1408028193E590000F388 /* RSCar.m in Sources */,
 				29E1407528193A000000F388 /* RSPassenger.m in Sources */,
 				29E1407928193B540000F388 /* RSVehicle.m in Sources */,
+				29E14087281941730000F388 /* RSEnterable.h in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,6 +10,7 @@
 @interface RSCarPort ()
 
 @property (nonatomic, strong) NSMutableArray<RSCar *> *trackPool;
+@property (nonatomic, strong) NSMutableArray<id<RSEnterable>> * enterPool;
 
 @end
 
@@ -31,6 +32,11 @@
     for (RSCar *obj in self.trackPool) {
         NSLog(@"%p - %@", obj, obj.captain.name);
     }
+}
+
+- (void)enter:(id<RSEnterable>)entry {
+    [self.enterPool addObject:entry];
+    NSLog(@"%@ is entered", entry.identifier);
 }
 
 @end

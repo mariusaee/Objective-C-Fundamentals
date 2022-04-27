@@ -9,6 +9,16 @@
 
 @implementation RSCar
 
+@synthesize identifier =_identifier;
+
+- (instancetype)initWIthPassenger:(RSPassenger *)captain {
+    self = [super initWIthPassenger:captain];
+    if (self) {
+        _identifier = [[NSUUID UUID] UUIDString];
+    }
+    return self;
+}
+
 -(void)move {
     NSLog(@"I'm driving, the driver is %@", self.captain.name);
 }

@@ -1,18 +1,17 @@
 //
-//  RSCar.h
+//  RSEnterable.h
 //  Objective-C Fundamentals
 //
 //  Created by Marius Malyshev on 27.04.2022.
 //
 
-#import "RSVehicle.h"
-#import "RSEnterable.h"
+#import <Foundation/Foundation.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface RSCar : RSVehicle <RSEnterable>
+@protocol RSEnterable <NSObject>
 
-- (void)move;
+@property (nonatomic, copy) NSString *identifier;
 
 @end
 
