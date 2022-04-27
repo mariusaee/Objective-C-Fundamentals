@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		29E1406B281939900000F388 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E1406A281939900000F388 /* main.m */; };
 		29E1407528193A000000F388 /* RSPassenger.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E1407428193A000000F388 /* RSPassenger.m */; };
+		29E1407928193B540000F388 /* Vehicle.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E1407828193B540000F388 /* Vehicle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		29E1406A281939900000F388 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29E1407328193A000000F388 /* RSPassenger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSPassenger.h; sourceTree = "<group>"; };
 		29E1407428193A000000F388 /* RSPassenger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSPassenger.m; sourceTree = "<group>"; };
+		29E1407728193B540000F388 /* Vehicle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vehicle.h; sourceTree = "<group>"; };
+		29E1407828193B540000F388 /* Vehicle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vehicle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +72,7 @@
 		29E14071281939C50000F388 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				29E1407628193B430000F388 /* Vehicle */,
 				29E14072281939E90000F388 /* Passenger */,
 			);
 			path = Model;
@@ -81,6 +85,15 @@
 				29E1407428193A000000F388 /* RSPassenger.m */,
 			);
 			path = Passenger;
+			sourceTree = "<group>";
+		};
+		29E1407628193B430000F388 /* Vehicle */ = {
+			isa = PBXGroup;
+			children = (
+				29E1407728193B540000F388 /* Vehicle.h */,
+				29E1407828193B540000F388 /* Vehicle.m */,
+			);
+			path = Vehicle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +155,7 @@
 			files = (
 				29E1406B281939900000F388 /* main.m in Sources */,
 				29E1407528193A000000F388 /* RSPassenger.m in Sources */,
+				29E1407928193B540000F388 /* Vehicle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
